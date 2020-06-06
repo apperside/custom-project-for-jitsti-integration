@@ -1,0 +1,49 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.codeActionsOnSaveTimeout": 5000,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  // "editor.formatOnSave": true,
+  "eslint.packageManager": "npm",
+  "eslint.trace.server": "messages",
+  "eslint.run": "onType",
+  // Insert spaces when pressing Tab. This setting is overriden
+  // based on the file contents when `editor.detectIndentation` is true.
+  "editor.insertSpaces": true,
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces`
+  // will be detected based on the file contents. Set to false to keep
+  // the values you've explicitly set, above.
+  "editor.detectIndentation": false,
+  // "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveTimeout": 5000,
+  "i18n-ally.localesPaths": [
+    "apps/landing/public/static/locales",
+    "apps/landing/pages/**/**/locales"
+  ],
+  // "i18n-ally.filenameMatchRegex": "^([\\w-]*)\\.messages\\.json",
+  "i18n-ally.displayLanguage": "it",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sortKeys": true,
+  "[*.md]": {
+    "editor.formatOnSave": false
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "codestats.apikey": "SFMyNTY.WkhKaGMzUnBTemt4IyNPRFUyT0E9PQ.plFLkw0yI3OD3JjcSCpRJYgNS7TwKufc9v_O2-ptC3A",
+  "codestats.username": "drastiK",
+  "eslint.options": {
+    "configFile": ".eslintrc.json"
+  },
+  "tslint.enable": false,
+  "editor.tabSize": 2,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "typescript.preferences.quoteStyle": "single",
+}

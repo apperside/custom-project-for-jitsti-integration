@@ -1,0 +1,1 @@
+node ./src/ui/atoms/Asset/generate.js
