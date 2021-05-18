@@ -36,7 +36,7 @@
     "react": "16.11.0",
     "react-native": "0.62.2",
     "react-native-anchor-carousel": "^3.1.2",
-    "react-native-fast-image": "^8.1.5",
+    "react-native-fast-image": "^8.3.0",
     "react-native-flip-countdown-timer": "^0.0.3",
     "react-native-flip-timer": "^0.0.4",
     "react-native-gesture-handler": "^1.6.1",
